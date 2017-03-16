@@ -1,0 +1,29 @@
+{
+  "name": "reactAPP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-react": "^6.23.0",
+    "html-webpack-plugin": "^2.28.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "standard": "^9.0.1",
+    "standard-loader": "^6.0.1",
+    "webpack-dashboard": "^0.3.0",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "scripts": {
+    "start": "webpack",
+    "start-live": "webpack-dev-server",
+    "start-dash": "webpack-dashboard -- webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
